@@ -1,0 +1,181 @@
+Podczas omawiania Selenium IDE nagraliśmy pierwszy test. Polegał on na wyszukaniu smartphone'a na stronie x-kom.pl. Otwórz przygotowany na zajęciach skrypt bądź pobierz go z repozytorium.
+
+Problem do rozwiązania
+Zmodyfikuj w Selenium IDE skrypt w taki sposób, aby zamiast produktu: Samsung Galaxy S20+ G985F Dual SIM Cosmic Black wyszukał telewizor: Philips 43PUS7354.
+
+Rozwiązanie
+Przykładowe rozwiązanie znajdziesz tutaj.
+
+Zadanie 2
+Problem do rozwiązania
+W Selenium IDE nagraj test, który wykona następujące kroki:
+
+Wejdź na stronę https://www.royalcaribbean.com/.
+W polu 'Crusing to' wybierz Transatlantic.
+W polu 'Departing From' kliknij opcję Northern Europe.
+Kliknij opcję Amsterdam, Netherlands.
+Kliknij przycisk Search cruises.
+Rozwiązanie
+Przykładowe rozwiązanie znajdziesz tutaj.
+
+Zadanie 3
+Problem do rozwiązania
+W Selenium IDE nagraj test, który wykona następujące kroki:
+
+Wejdź na stronę https://www.istqb.org/.
+Na pasku menu kliknij przycisk References.
+W podpunkcie Articles which can be related to ISTQB® or used in ISTQB® Syllabi kliknij na odnośnik related to ISTQB®.
+Kliknij na odnośnik do artykułu Two Weeks to Better Testing this Summer.
+Rozwiązanie
+Przykładowe rozwiązanie znajdziesz tutaj.
+
+Zadanie 4
+Podczas omawiania Selenium WebDriver napisaliśmy pierwszy test. Polegał on na wypisaniu w konsoli tytułu strony https://sdacademy.dev.
+
+Problem do rozwiązania
+Zmodyfikuj skrypt tak, aby wypisał w konsoli tytuł strony: https://stackoverflow.com/.
+
+Rozwiązanie
+Przykładowe rozwiązanie znajdziesz tutaj.
+
+Zadanie 5
+Podczas omawiania Selenium WebDriver poruszyliśmy temat asercji.
+
+Problem do rozwiązania
+Zmodyfikuj test z poprzedniego ćwiczenia tak, aby sprawdził, czy strona StackOverflow ma tytuł: Stack Overflow - Where Developers Learn, Share, & Build Careers.
+
+Wskazówka
+
+Skorzystaj z assertEquals().
+
+Rozwiązanie
+Przykładowe rozwiązanie znajdziesz tutaj.
+
+Zadanie 6
+Problem do rozwiązania
+Napisz test:
+
+Wejdź na stronę https://opensource-demo.orangehrmlive.com/.
+W polu 'Username' wpisz: Admin.
+W polu 'Password' wpisz: admin123.
+Kliknij przycisk Login.
+Upewnij się, że użytkownik się zalogował.
+Wskazówka
+
+Sprawdź, czy URL po zalogowaniu jest zgodny z oczekiwanym.
+
+Rozwiązanie
+Przykładowe rozwiązanie znajdziesz tutaj.
+
+Zadanie 7
+Problem do rozwiązania
+Napisz test:
+
+Wejdź na stronę https://opensource-demo.orangehrmlive.com/.
+W polu 'Username' wpisz: WrongUsername.
+W polu 'Password' wpisz: WrongPassword.
+Kliknij przycisk Login.
+Sprawdź, czy wyświetlił się komunikat o błędnych danych logowania - Invalid credentials.
+Wskazówka
+
+Skorzystaj z metody getText().
+
+Rozwiązanie
+Przykładowe rozwiązanie znajdziesz tutaj.
+
+Zadanie 8
+Problem do rozwiązania
+Napisz test:
+
+Wejdź na stronę: https://www.bbc.com.
+Wypisz w konsoli ilość dostępnych linków na stronie.
+Wypisz w konsoli ilość dostępnych obrazków na stronie.
+Wskazówka Skorzystaj z metody findElements().
+
+Rozwiązanie
+Przykładowe rozwiązanie znajdziesz tutaj.
+
+Zadanie 9
+Problem do rozwiązania
+Napisz test:
+
+Wejdź na stronę https://google.com/.
+
+W polu wyszukiwania wpisz: Java.
+
+Wybierz opcję przejścia do wyszukiwania:
+
+Kliknij przycisk Google Search
+lub
+
+Kliknij klawisz Enter
+Wypisz w konsoli ilość znalezionych linków na pierwszej stronie.
+
+Rozwiązanie
+Przykładowe rozwiązanie znajdziesz tutaj.
+
+Zadanie 10
+Problem do rozwiązania
+Napisz test:
+
+Wejdź na stronę https://google.com/.
+W polu wyszukiwania wpisz: Software Development Academy.
+Sprawdź, czy strona: https://sdacademy.pl jest pierwsza na liście wyników.
+Wskazówka 1 Pobierz wszystkie wyniki do listy.
+
+Wskazówka 2 Następnie pobierz pierwszy element z listy.
+
+Rozwiązanie
+Przykładowe rozwiązanie znajdziesz tutaj.
+
+Zadanie 11
+Problem do rozwiązania
+Napisz test:
+
+Wejdź na stronę https://www.pracuj.pl.
+W polu 'słowo kluczowe, stanowisko, firma' wpisz: tester.
+W polu 'Cała Polska' wpisz: Warszawa.
+Kliknij przycisk Szukaj.
+Zwróć w konsoli wszystkie oferty pracy w formacie: nr. pracodawca - nazwa stanowiska.
+Wskazówka
+
+Zapisz wszystkie oferty pracy do listy. W każdym elemencie listy odnajdź nazwę pracodawcy i nazwę stanowiska.
+
+Przykładowy wynik
+1. Super Team - QA Engineer
+2. Fajna Firma - Tester Automatyzujący
+3. Solidna Paczka - Junior Tester
+Rozwiązanie
+Przykładowe rozwiązanie znajdziesz tutaj.
+
+Zadanie 12
+Problem do rozwiązania
+Napisz test:
+
+Wejdź na stronę https://opensource-demo.orangehrmlive.com/.
+
+W polu 'Username' wpisz: Admin.
+
+W polu 'Password' wpisz: admin123.
+
+Kliknij przycisk Login.
+
+Kliknij zakładkę PIM.
+
+Kliknij przycisk Add.
+
+Wypełnij formularz poniższymi danymi:
+
+First Name: Keanu
+Middle Name: Charles
+Last Name: Reeves
+Employee Id: 666
+Kliknij przycisk Save.
+
+Sprawdź, czy:
+
+Po utworzeniu nowego pracownika użytkownik został przekierowany na stronę z danymi szczegółowymi pracownika.
+Na wyświetlonej stronie z danymi pracownika wyświetlają się dane utworzonego pracownika.
+Wskazówka
+
+Skorzystaj z metody: getAttribute();
